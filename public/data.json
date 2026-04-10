@@ -13,7 +13,7 @@
       "High-resolution export",
       "Team collaboration tools"
     ],
-    "icon": "design-tool.png"
+    "icon": "/design-tool.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Analytics dashboard",
       "Workflow optimization"
     ],
-    "icon": "operation.png"
+    "icon": "/operation.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Custom sections",
       "SEO optimized"
     ],
-    "icon": "portfolio.png"
+    "icon": "/portfolio.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Secure checkout",
       "Payment integration"
     ],
-    "icon": "shopping-cart.png"
+    "icon": "/shopping-cart.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Multi-platform support",
       "Engagement insights"
     ],
-    "icon": "social-media.png"
+    "icon": "/social-media.png"
   },
   {
     "id": 6,
@@ -93,6 +93,6 @@
       "AI suggestions",
       "Cloud storage"
     ],
-    "icon": "writing_2327400 1.png"
+    "icon": "/writing_2327400 1.png"
   }
 ]
