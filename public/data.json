@@ -12,81 +12,87 @@
       "Professional UI/UX templates",
       "High-resolution export",
       "Team collaboration tools"
-    ]
+    ],
+    "icon": "design-tool.png"
   },
   {
     "id": 2,
     "name": "Operations Manager",
-    "description": "Streamline your business operations, automate workflows, and manage teams efficiently in one place.",
+    "description": "Streamline your business operations, automate workflows, and manage teams efficiently.",
     "price": 19.99,
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": [
-      "Smart task automation",
-      "Team & project management",
-      "Advanced analytics dashboard",
+      "Task automation",
+      "Team management",
+      "Analytics dashboard",
       "Workflow optimization"
-    ]
+    ],
+    "icon": "operation.png"
   },
   {
     "id": 3,
     "name": "Portfolio Builder",
-    "description": "Create stunning, responsive personal and developer portfolios without writing a single line of code.",
+    "description": "Create stunning personal and developer portfolios without coding.",
     "price": 0,
     "period": "free",
     "tag": "New",
     "tagType": "new",
     "features": [
-      "Modern responsive templates",
-      "Custom sections & layouts",
-      "SEO optimized structure",
-      "Easy customization"
-    ]
+      "Modern templates",
+      "Responsive design",
+      "Custom sections",
+      "SEO optimized"
+    ],
+    "icon": "portfolio.png"
   },
   {
     "id": 4,
     "name": "Smart Cart System",
-    "description": "A fully optimized shopping cart solution designed for fast, secure, and seamless eCommerce experiences.",
+    "description": "A fast and secure shopping cart system for eCommerce websites.",
     "price": 9.99,
     "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
     "features": [
-      "Dynamic cart management",
-      "Discount & coupon system",
-      "Secure checkout flow",
-      "Payment gateway integration"
-    ]
+      "Cart management",
+      "Coupon system",
+      "Secure checkout",
+      "Payment integration"
+    ],
+    "icon": "shopping-cart.png"
   },
   {
     "id": 5,
     "name": "Social Media Hub",
-    "description": "Plan, schedule, and analyze your social media content across multiple platforms from a single dashboard.",
+    "description": "Manage and schedule social media posts across multiple platforms.",
     "price": 14.99,
     "period": "monthly",
     "tag": "Trending",
     "tagType": "trending",
     "features": [
-      "Multi-platform scheduling",
-      "Engagement analytics",
-      "Content planning tools",
-      "Performance insights"
-    ]
+      "Post scheduling",
+      "Analytics tracking",
+      "Multi-platform support",
+      "Engagement insights"
+    ],
+    "icon": "social-media.png"
   },
   {
     "id": 6,
     "name": "Content Creator Suite",
-    "description": "An all-in-one toolkit for creators to design, edit, and publish high-quality digital content effortlessly.",
+    "description": "All-in-one toolkit for creators to design and publish digital content.",
     "price": 24.99,
     "period": "monthly",
     "tag": "Best Value",
     "tagType": "best-value",
     "features": [
-      "Advanced video & image editor",
-      "Pre-built creative templates",
-      "AI-powered suggestions",
-      "Cloud storage integration"
-    ]
+      "Video & image editor",
+      "Templates library",
+      "AI suggestions",
+      "Cloud storage"
+    ],
+    "icon": "writing_2327400 1.png"
   }
 ]
