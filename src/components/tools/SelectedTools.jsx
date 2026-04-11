@@ -1,11 +1,37 @@
 import React from 'react';
 
-const SelectedTools = ({coin}) => {
-    return (
-        <div>
-           ${coin}
-        </div>
-    );
+const SelectedTools = ({ coin, selectedProduct,setSelectedProduct}) => {
+
+const handleDelete=(product)=>{
+  console.log(product,"product");
+  const filterProduct = selectedProduct.filter(chosenProduct=>chosenProduct.name!==product.name);
+  setSelectedProduct(filterProduct);
 };
 
-export default SelectedTools;
+  return (
+    <div className='px-20 rounded'>
+    <div className='px-20 rounded shadow-2xl'>
+      
+      <h2 className='font-semibold'>Your Cart Total: ${coin}</h2>
+
+      {
+        selectedProduct.map((product, ind) => (
+          <div key={ind} className="p-3 m-2 flex justify-between gap-2">
+            <div>
+            <div><img src={product.icon} alt={product.name} /></div>
+           <div>
+             <p>{product.name}</p>
+            <p>${product.price}</p>
+           </div>
+           </div>
+           <div><button className='btn' onClick={()=>handleDelete(product)}>Remove</button></div>
+          </div>
+          
+        ))
+      }
+    </div>
+    </div>
+  );
+};
+
+export default SelectedTools

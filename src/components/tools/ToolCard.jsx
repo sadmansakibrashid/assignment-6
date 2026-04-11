@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ToolFeature from "./ToolFeature";
 
-const ToolCard = ({ tool, setCoin }) => {
+const ToolCard = ({ tool, setCoin,selectedProduct,setSelectedProduct }) => {
   const [isSelected, setIsSelected] = useState(false);
 
   return (
@@ -37,8 +37,9 @@ const ToolCard = ({ tool, setCoin }) => {
         <button
           className="btn btn-primary w-full"
           onClick={() => {
-             
+             alert(`${tool.name} is selected`)
               setIsSelected(true);
+              setSelectedProduct([...selectedProduct,tool])
               setCoin(prev => prev + tool.price);
             }
           }
