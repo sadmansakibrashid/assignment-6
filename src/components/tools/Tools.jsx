@@ -9,7 +9,7 @@ const Tools = ({dataPromise}) => {
    
      const [selectedType,setSelectedType]=useState("products");
      console.log(selectedType,"selectedType");
-
+    const [coin, setCoin] = useState(0);
  return (
         <div>
             
@@ -26,8 +26,8 @@ const Tools = ({dataPromise}) => {
             </div>
 
             
-            {selectedType==="products" ?<Tool data={data}></Tool>:
-            <SelectedTools></SelectedTools>}
+            {selectedType==="products" ?<Tool data={data} setCoin={setCoin} ></Tool>:
+            <SelectedTools coin={coin}></SelectedTools>}
         </div>
     );
 };

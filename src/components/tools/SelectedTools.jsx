@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SelectedTools = () => {
+const SelectedTools = ({coin}) => {
     return (
         <div>
-            Hi 
+           ${coin}
         </div>
     );
 };

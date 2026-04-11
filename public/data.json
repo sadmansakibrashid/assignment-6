@@ -35,7 +35,7 @@
     "id": 3,
     "name": "Portfolio Builder",
     "description": "Create stunning personal and developer portfolios without coding.",
-    "price": 0,
+    "price": 5,
     "period": "free",
     "tag": "New",
     "tagType": "new",

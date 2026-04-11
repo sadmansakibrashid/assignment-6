@@ -11,6 +11,7 @@ const fetchData =async()=>{
 
 function App() {
    const dataPromise = fetchData();
+   
 
   return (
     <>
