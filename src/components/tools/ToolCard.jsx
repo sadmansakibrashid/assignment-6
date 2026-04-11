@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ToolFeature from "./ToolFeature";
+import { toast } from "react-toastify";
 
 const ToolCard = ({ tool, setCoin,selectedProduct,setSelectedProduct }) => {
   const [isSelected, setIsSelected] = useState(false);
@@ -37,7 +38,8 @@ const ToolCard = ({ tool, setCoin,selectedProduct,setSelectedProduct }) => {
         <button
           className="btn btn-primary w-full"
           onClick={() => {
-             alert(`${tool.name} is selected`)
+             
+             toast(`${tool.name} is selected`);
               setIsSelected(true);
               setSelectedProduct([...selectedProduct,tool])
               setCoin(prev => prev + tool.price);

@@ -7,6 +7,7 @@ import User from './components/user/User';
 import Footer from './components/footer/Footer';
 import Steps from './components/steps/Steps';
 import Card from './components/card/Card';
+import { ToastContainer } from 'react-toastify';
 
 const fetchData =async()=>{
   const res = await fetch("/data.json");
@@ -28,9 +29,11 @@ function App() {
      <Steps></Steps>
      <Card></Card>
       <Footer></Footer>   
-        
+
+
+      <ToastContainer />  
    </>
-  )
+  );
 }
 
-export default App
+export default App;
