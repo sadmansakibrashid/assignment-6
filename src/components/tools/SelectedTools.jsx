@@ -29,6 +29,11 @@ const handleDelete=(product)=>{
           
         ))
       }
+      <div className='flex justify-between'>
+        <p>Total:</p> 
+        <h3 className='font-bold'>${coin}</h3>
+        </div>
+        <button className='btn w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA]'>Proceed to Checkout</button>
     </div>
     </div>
   );
